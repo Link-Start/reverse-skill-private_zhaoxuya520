@@ -23,11 +23,29 @@
 2. AI 询问用户是否贡献
 3. 用户同意 → AI 执行以下步骤：
    a. 检查脱敏是否完整（二次确认无真实域名/IP/Token）
-   b. 检查是否与主仓库已有条目重复（按场景+关键词匹配）
+   b. 检查是否与主仓库已有条目重复（只读 _index.md，~200 token）
    c. 如果不重复 → 创建 PR 到主仓库
    d. PR 标题格式：[field-journal] YYYY-MM-DD 场景类型 - 关键词
-4. 主仓库维护者审核合并
+4. GitHub Actions 自动审核：
+   - ✓ 只修改了 field-journal/*.md
+   - ✓ 无 prompt injection 特征
+   - ✓ 无未脱敏的 API key/token
+   - ✓ 无可执行代码
+   - ✓ 文件大小 < 50KB
+5. 审核通过 → 自动合并（无需仓库维护者手动操作）
+6. 审核失败 → 自动评论说明原因，PR 保持 open 等待修正
 ```
+
+### 安全保障
+
+| 威胁 | 防护 |
+|------|------|
+| 修改非 journal 文件 | Actions 检查 changed files 白名单 |
+| Prompt injection | 正则检测 "ignore previous"/"you are now" 等特征 |
+| 恶意代码伪装 | 检测 `#!/`、`import`、`exec(`、`eval(` 等 |
+| 未脱敏 token | 正则检测 AWS key/npm token/GitHub token 模式 |
+| 垃圾数据 | 单文件 50KB 上限 |
+| 大量垃圾 PR | GitHub 自带 rate limit + 可以加 CODEOWNERS 审核 |
 
 ## 技术实现
 
