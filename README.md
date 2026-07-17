@@ -33,6 +33,7 @@
   <a href="skills/routing.md">路由矩阵</a> ·
   <a href="skills/ops/">作战契约</a> ·
   <a href="README_AI.md">AI 引导</a> ·
+  <a href="#赞助">赞助</a> ·
   <a href="#贡献">贡献</a>
 </p>
 
@@ -186,6 +187,24 @@ git clone https://github.com/zhaoxuya520/reverse-skill.git
 
 <p align="right">(<a href="#使用说明">返回顶部</a>)</p>
 
+<a id="赞助"></a>
+
+## 赞助
+
+支持 reverse-skill 的持续维护，或在 README 获得面向安全工程师的品牌露出。
+
+**详情与档位：** [docs/SPONSORSHIP.md](docs/SPONSORSHIP.md)  
+**合作邮箱：** [ww7517437@gmail.com](mailto:ww7517437@gmail.com)
+
+### Sponsors
+
+<!-- 赞助 logo 放这里，高度建议 40px；务必保留 Sponsored 语义 -->
+<p align="center">
+  <em>Be the first sponsor — <a href="mailto:ww7517437@gmail.com?subject=%5BSponsorship%5D%20reverse-skill">email us</a></em>
+</p>
+
+<p align="right">(<a href="#赞助">返回顶部</a>)</p>
+
 <a id="贡献"></a>
 
 ## 贡献
@@ -230,7 +249,7 @@ git clone https://github.com/zhaoxuya520/reverse-skill.git
 <p align="right">(<a href="#致谢">返回顶部</a>)</p>
 
 ## 联系方式
-- **邮箱**：`ww7517437@gmail.com`
-- **telegram群组**:
-(https://t.me/AI_And_Security)
+
+- **邮箱**：[ww7517437@gmail.com](mailto:ww7517437@gmail.com)（含 [赞助合作](docs/SPONSORSHIP.md)）
+- **Telegram**：[t.me/AI_And_Security](https://t.me/AI_And_Security)
 - **X (Twitter)**：[@apivixtls](https://x.com/apivixtls)

@@ -28,6 +28,7 @@
   <a href="skills/routing.md">Routing</a> ·
   <a href="skills/ops/">Ops contracts</a> ·
   <a href="README_AI.md">AI Bootstrap</a> ·
+  <a href="#sponsors">Sponsors</a> ·
   <a href="#contributing">Contributing</a>
 </p>
 
@@ -183,6 +184,23 @@ Platform-specific docs:
 ```
 
 <p align="right">(<a href="#usage">back to top</a>)</p>
+
+<a id="sponsors"></a>
+
+## Sponsors
+
+Support ongoing maintenance, or get labeled brand placement in front of security engineers.
+
+**Tiers:** [docs/SPONSORSHIP.md](docs/SPONSORSHIP.md)  
+**Email:** [ww7517437@gmail.com](mailto:ww7517437@gmail.com)
+
+### Current sponsors
+
+<p align="center">
+  <em>Be the first sponsor — <a href="mailto:ww7517437@gmail.com?subject=%5BSponsorship%5D%20reverse-skill">email us</a></em>
+</p>
+
+<p align="right">(<a href="#sponsors">back to top</a>)</p>
 
 <a id="contributing"></a>
 
